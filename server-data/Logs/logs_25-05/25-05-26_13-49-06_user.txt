@@ -1,0 +1,16 @@
+[25-05-26 13:49:06.115] added connection index=0 172.18.0.3.
+[25-05-26 13:49:08.115] 76561199129610493(owner=76561199088796840) "Opeteer" attempting to join.
+[25-05-26 13:49:08.117] 76561199129610493(owner=76561199088796840) "Opeteer" allowed to join.
+[25-05-26 13:49:18.327] 76561199129610493(owner=76561199088796840) "Opeteer" attempting to join used queue.
+[25-05-26 13:49:18.491] added connection index=1 172.18.0.3.
+[25-05-26 13:49:20.541] 76561199225715559 "Mario" attempting to join.
+[25-05-26 13:49:20.560] 76561199225715559 "Mario" allowed to join.
+[25-05-26 13:49:31.619] 76561199225715559 "Mario" attempting to join used queue.
+[25-05-26 13:49:32.771] player Opeteer loading time was: 14079 ms.
+[25-05-26 13:49:36.151] 76561199129610493(owner=76561199088796840) "Opeteer" fully connected (10890,9481,0).
+[25-05-26 13:49:43.623] player Mario loading time was: 11585 ms.
+[25-05-26 13:49:47.827] 76561199225715559 "Mario" fully connected (10916,10137,0).
+[25-05-26 13:51:02.843] 76561199129610493(owner=76561199088796840) "Opeteer" removed connection index=0.
+[25-05-26 13:51:02.852] 76561199129610493(owner=76561199088796840) "Opeteer" disconnected player (10890,9477,0).
+[25-05-26 13:51:03.567] 76561199225715559 "Mario" removed connection index=1.
+[25-05-26 13:51:03.580] 76561199225715559 "Mario" disconnected player (10917,10133,1).

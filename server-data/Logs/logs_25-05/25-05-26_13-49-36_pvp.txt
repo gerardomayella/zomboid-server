@@ -1,0 +1,4 @@
+[25-05-26 13:49:36.148][INFO] user "Opeteer" restore safety enabled=true last=true cooldown=0.0 toggle=0.0.
+[25-05-26 13:49:47.825][INFO] user "Mario" restore safety enabled=true last=true cooldown=0.0 toggle=0.0.
+[25-05-26 13:51:02.849][INFO] user "Opeteer" store safety enabled=true last=true cooldown=0.0 toggle=0.0.
+[25-05-26 13:51:03.579][INFO] user "Mario" store safety enabled=true last=true cooldown=0.0 toggle=0.0.

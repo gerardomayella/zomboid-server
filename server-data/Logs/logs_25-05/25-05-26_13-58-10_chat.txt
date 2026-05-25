@@ -1,0 +1,18 @@
+[25-05-26 13:58:10.300][info] Start chat server initialization....
+[25-05-26 13:58:10.307][info] General chat has id = 0.
+[25-05-26 13:58:10.307][info] Say chat has id = 1.
+[25-05-26 13:58:10.308][info] Shout chat has id = 2.
+[25-05-26 13:58:10.308][info] Radio chat has id = 3.
+[25-05-26 13:58:10.310][info] Admin chat has id = 4.
+[25-05-26 13:58:10.310][info] Server chat has id = 5.
+[25-05-26 13:58:10.311][info] Chat server successfully initialized.
+[25-05-26 14:00:19.472][info] Player with id = '0' tries to connect.
+[25-05-26 14:00:19.473][info] Adding player '0' to chat server.
+[25-05-26 14:00:19.474][info] Player joined to default chats.
+[25-05-26 14:00:19.474][info] Player Opeteer(0) joined to chat server successfully.
+[25-05-26 14:00:39.403][info] Got message:ChatMessage{chat=Local, author='Opeteer', text='HEY!'}.
+[25-05-26 14:00:39.403][info] Message ChatMessage{chat=Local, author='Opeteer', text='HEY!'} sent to chat (id = 2) members.
+[25-05-26 14:01:21.411][info] Player 0 disconnecting....
+[25-05-26 14:01:21.411][info] Disconnecting player 0 finished.
+[25-05-26 14:01:21.412][info] Player 0 disconnecting....
+[25-05-26 14:01:21.412][info] Disconnecting player 0 finished.

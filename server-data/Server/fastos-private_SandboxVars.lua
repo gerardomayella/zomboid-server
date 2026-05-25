@@ -345,7 +345,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 0,
+    CharacterFreePoints = 70,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -403,7 +403,7 @@ SandboxVars = {
     -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
     EnableSnowOnGround = true,
     -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
-    MultiHitZombies = false,
+    MultiHitZombies = true,
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
@@ -498,7 +498,7 @@ SandboxVars = {
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1.0,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
         MapAllKnown = false,
     },
@@ -613,5 +613,30 @@ SandboxVars = {
         RallyGroupSeparation = 15,
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
+    },
+    CommonSense = {
+        PryingMechanic = true,
+        PartsHighlighter = true,
+        GunStats = true,
+        ColorFilter = false,
+        PryBuildingDoors = true,
+        PryGarageDoors = true,
+        PrySafeDoors = false,
+        PryWindows = true,
+        PryVehicleDoors = true,
+        ShatterVehicleWindows = true,
+        -- Minimum=0 Maximum=10 Default=8
+        ReinforcedDoorLevel = 8,
+        -- Minimum=0 Maximum=100 Default=20
+        WindowShatterChance = 20,
+        -- Minimum=0.00 Maximum=5.00 Default=1.00
+        PryingChanceMultiplier = 1.0,
+        -- Minimum=0 Maximum=100 Default=10
+        CanWoundChance = 10,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        CanWoundIntensity = 1.0,
+    },
+    WhereAmI = {
+        HideUIOffRegion = false,
     },
 }

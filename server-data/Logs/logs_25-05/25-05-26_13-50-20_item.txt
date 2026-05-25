@@ -1,0 +1,4 @@
+[25-05-26 13:50:20.843] 76561199225715559 "Mario" container -1 10916,10132,1 [Base.FirstAidKit].
+[25-05-26 13:50:23.859] 76561199225715559 "Mario" container -1 10916,10132,1 [Base.Sheet].
+[25-05-26 13:50:29.836] 76561199225715559 "Mario" container -1 10916,10131,1 [Base.Bandaid].
+[25-05-26 13:50:32.829] 76561199225715559 "Mario" container -2 10916,10130,1 [Base.Bandage, Base.Bandaid].

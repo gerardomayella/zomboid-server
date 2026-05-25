@@ -1,0 +1,24 @@
+[25-05-26 13:48:10.721][info] Start chat server initialization....
+[25-05-26 13:48:10.724][info] General chat has id = 0.
+[25-05-26 13:48:10.725][info] Say chat has id = 1.
+[25-05-26 13:48:10.725][info] Shout chat has id = 2.
+[25-05-26 13:48:10.725][info] Radio chat has id = 3.
+[25-05-26 13:48:10.725][info] Admin chat has id = 4.
+[25-05-26 13:48:10.725][info] Server chat has id = 5.
+[25-05-26 13:48:10.725][info] Chat server successfully initialized.
+[25-05-26 13:49:36.129][info] Player with id = '0' tries to connect.
+[25-05-26 13:49:36.129][info] Adding player '0' to chat server.
+[25-05-26 13:49:36.133][info] Player joined to default chats.
+[25-05-26 13:49:36.133][info] Player Opeteer(0) joined to chat server successfully.
+[25-05-26 13:49:47.824][info] Player with id = '4' tries to connect.
+[25-05-26 13:49:47.824][info] Adding player '4' to chat server.
+[25-05-26 13:49:47.824][info] Player joined to default chats.
+[25-05-26 13:49:47.824][info] Player Mario(4) joined to chat server successfully.
+[25-05-26 13:51:02.848][info] Player 0 disconnecting....
+[25-05-26 13:51:02.848][info] Disconnecting player 0 finished.
+[25-05-26 13:51:02.849][info] Player 0 disconnecting....
+[25-05-26 13:51:02.849][info] Disconnecting player 0 finished.
+[25-05-26 13:51:03.579][info] Player 4 disconnecting....
+[25-05-26 13:51:03.579][info] Disconnecting player 4 finished.
+[25-05-26 13:51:03.579][info] Player 4 disconnecting....
+[25-05-26 13:51:03.579][info] Disconnecting player 4 finished.

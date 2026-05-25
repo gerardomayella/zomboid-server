@@ -1,0 +1,2 @@
+[25-05-26 14:00:19.480][INFO] user "Opeteer" restore safety enabled=true last=true cooldown=0.0 toggle=0.0.
+[25-05-26 14:01:21.411][INFO] user "Opeteer" store safety enabled=true last=true cooldown=0.0 toggle=0.0.

@@ -2318,3 +2318,28 @@ table.insert(log, {
 	{ type = "reg_obj", id = 44, obj = "WallCracks" }
 	{ type = "reg_obj", id = 45, obj = "Flowerbed" }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2026/05/25 13:17:35
+	{
+		type = "info",
+		timeStamp = "2026/05/25 13:17:35",
+		saveWorld = "fastos-private",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"AxesRecrafting",
+			"DRAW_ON_MAP",
+			"BB_CommonSense",
+		},
+	},
+	{ type = "reg_item", fulltype = "AxeRecrafting.HandAxeHead", registeryID = 2259, existsVanilla = false, isModded = true, modID = "AxesRecrafting", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrawOnTheMap.SheetPaperMap", registeryID = 2260, existsVanilla = false, isModded = true, modID = "DRAW_ON_MAP", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AxeRecrafting.MetalAxeHandle", registeryID = 2261, existsVanilla = false, isModded = true, modID = "AxesRecrafting", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.EmptyConcreteBag", registeryID = 2262, existsVanilla = false, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AxeRecrafting.FireAxeHead", registeryID = 2263, existsVanilla = false, isModded = true, modID = "AxesRecrafting", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AxeRecrafting.AxeHandle", registeryID = 2264, existsVanilla = false, isModded = true, modID = "AxesRecrafting", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AxeRecrafting.WoodAxeHead", registeryID = 2265, existsVanilla = false, isModded = true, modID = "AxesRecrafting", obsolete = false, removed = false, isLoaded = true }
+};
