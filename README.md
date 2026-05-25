@@ -8,7 +8,7 @@ This project provides a dedicated Project Zomboid server infrastructure running 
 
 ```mermaid
 graph TD
-    Client[Zomboid Client] -->|UDP 16261/16262| AzureFRP[Azure FRPS Server 70.153.137.246]
+    Client[Zomboid Client] -->|UDP 16261/16262| AzureFRP[Azure FRPS Server <AZURE_PUBLIC_IP>]
     AzureFRP -->|FRP Tunnel| FRPC[FRP Client Container]
     FRPC -->|Local Network| PZ[Project Zomboid Container]
     
@@ -77,7 +77,7 @@ This script sends the default admin password (`madridnomor1`) directly to the `t
 - **Admin Username**: `admin`
 - **Admin Password**: `madridnomor1`
 - **Server Password (Client Join Password)**: `barcagakpernahucl`
-- **FRP Server IP**: `70.153.137.246`
+- **FRP Server IP**: `<AZURE_PUBLIC_IP>`
 - **Game Ports**: `16261` (UDP) & `16262` (UDP)
 - **XP Multiplier**: `3.0` (3x multiplier)
 
