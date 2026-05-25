@@ -22,6 +22,20 @@ graph TD
     end
 ```
 
+### System Dependency
+
+This setup requires an active `frp-gateway` (FRP Server) running on a public cloud server (e.g., Azure) to receive and tunnel the connection. Without a running `frps` instance at the configured public IP address, the local `frp-client` will not be able to establish a connection, and external players will not be able to connect to the game server.
+
+### Architectural Advantages
+
+Deploying a Project Zomboid server using this specific architecture (Vagrant VM + Docker Compose + FRP Tunneling) offers several key benefits:
+
+1. **No Port Forwarding Required**: You do not need to configure port forwarding on your local home router or contact your ISP for a public static IP. The FRP client initiates an outbound connection to the cloud server, bypassing local NAT/firewall restrictions.
+2. **IP Masking and Security**: Players connect to the public IP of the Azure cloud server rather than your local home IP address. This hides your physical location and protects your home network from potential DDoS attacks.
+3. **Reproducibility and Portability**: The Vagrant and Docker configurations define the entire server setup as code. The server can be recreated or moved to any computer running Vagrant/Docker in minutes, with identical configurations.
+4. **Resource Isolation**: The game server runs inside a container inside a VM, separating the game processes, dependencies, and network entirely from the host system.
+5. **Decoupled Gateway**: The cloud gateway handles public traffic and connection routing, allowing you to run the heavy game server on your own local hardware (with zero hosting costs for high CPU/RAM resources) while maintaining a cloud-like public accessibility.
+
 The infrastructure consists of:
 1. **Windows Host**: Runs Vagrant and VirtualBox.
 2. **Vagrant VM**: Ubuntu Focal 20.04 LTS allocated with 4 CPUs, 8 GB RAM, and 40 GB of disk space.
