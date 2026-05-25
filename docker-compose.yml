@@ -1,0 +1,30 @@
+services:
+  project-zomboid:
+    image: afey/zomboid
+    container_name: project-zomboid
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=1
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    environment:
+      SERVER_NAME: "fastos-private"
+      ADMIN_PASSWORD: "madridnomor1"
+      PZ_ADMIN_PASSWORD: "madridnomor1"
+      ZOMBOID_ADMIN_PASSWORD: "madridnomor1"
+      SERVER_PASSWORD: "barcagakpernahucl"
+    volumes:
+      - ./server-data:/server-data
+
+  frp-client:
+    image: snowdreamtech/frpc:latest
+    container_name: frp-client
+    restart: unless-stopped
+    volumes:
+      - ./frpc.toml:/etc/frp/frpc.toml
+    command: ["frpc", "-c", "/etc/frp/frpc.toml"]
+    depends_on:
+      - project-zomboid

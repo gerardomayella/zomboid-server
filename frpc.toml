@@ -1,0 +1,26 @@
+serverAddr = "70.153.137.246"
+serverPort = 7000
+
+[log]
+level = "trace"
+
+[transport]
+tls.enable = true
+
+[auth]
+method = "token"
+token = "MadridNomor12345"
+
+[[proxies]]
+name = "zomboid-game-port"
+type = "udp"
+localIP = "project-zomboid"
+localPort = 16261
+remotePort = 16261
+
+[[proxies]]
+name = "zomboid-steam-port"
+type = "udp"
+localIP = "project-zomboid"
+localPort = 16262
+remotePort = 16262

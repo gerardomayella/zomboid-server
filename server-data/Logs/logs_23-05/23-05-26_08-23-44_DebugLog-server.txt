@@ -1,0 +1,33 @@
+[23-05-26 08:23:44.894] LOG  : General     , 1779524624894> 1,351,332> cachedir set to "/home/linuxgsm/Zomboid".
+[23-05-26 08:23:45.058] LOG  : General     , 1779524625057> 1,351,495> version=41.78.19 demo=false.
+[23-05-26 08:23:45.058] LOG  : General     , 1779524625058> 1,351,496> revision= date= time=.
+[23-05-26 08:23:45.059] LOG  : General     , 1779524625059> 1,351,496> server name is "fastos-private".
+[23-05-26 08:23:45.062] LOG  : General     , 1779524625062> 1,351,500> map_t.bin does not exist, cannot determine the server's WorldVersion.  This is ok the first time a server is started..
+[23-05-26 08:23:45.065] LOG  : General     , 1779524625065> 1,351,502> Loading networking libraries....
+[23-05-26 08:23:45.068] LOG  : General     , 1779524625067> 1,351,505> Loading steam_api....
+[23-05-26 08:23:45.071] LOG  : General     , 1779524625071> 1,351,508> Loading RakNet64....
+[23-05-26 08:23:45.072] LOG  : General     , 1779524625072> 1,351,510> Loading ZNetJNI64....
+[23-05-26 08:23:45.076] LOG  : Network     , 1779524625075> 1,351,513> [23-05-26 08:23:45.075] > ZNet: SetLogLevel 2.
+[23-05-26 08:23:45.085] LOG  : Network     , 1779524625085> 1,351,522> [23-05-26 08:23:45.084] > ZNet: SteamAPI initialised successfully.
+[23-05-26 08:23:45.086] LOG  : General     , 1779524625085> 1,351,523> SteamUtils initialised successfully.
+[23-05-26 08:23:46.086] LOG  : General     , 1779524626086> 1,352,523> translator: language is EN.
+[23-05-26 08:23:46.461] LOG  : General     , 1779524626460> 1,352,898> reading /home/linuxgsm/Zomboid/Server/fastos-private.ini.
+[23-05-26 08:23:46.468] LOG  : General     , 1779524626468> 1,352,905> writing /home/linuxgsm/Zomboid/Server/fastos-private.ini.
+[23-05-26 08:23:46.492] LOG  : Network     , 1779524626492> 1,352,930> [23-05-26 08:23:46.492] > ZNet: SZombienet -> SZombienet: Init.
+[23-05-26 08:23:46.905] LOG  : Network     , 1779524626904> 1,353,341> [23-05-26 08:23:46.904] > ZNet: SteamGameServer seems to be initialized.
+[23-05-26 08:23:46.907] LOG  : Network     , 1779524626906> 1,353,344> [23-05-26 08:23:46.906] > ZNet: SZombienet -> SSteamSDK: SetMaxPlayerCount.
+[23-05-26 08:23:46.922] LOG  : General     , 1779524626922> 1,353,360> Waiting for response from Steam servers.
+[23-05-26 08:23:48.379] LOG  : Network     , 1779524628379> 1,354,816> [23-05-26 08:23:48.379] > ZNet: SSteamSDK -> SZombienet: OnSteamServersConnected.
+[23-05-26 08:23:48.380] LOG  : Network     , 1779524628380> 1,354,818> [23-05-26 08:23:48.380] > ZNet: OnSteamServersConnected.
+[23-05-26 08:23:48.382] LOG  : Network     , 1779524628381> 1,354,819> [23-05-26 08:23:48.381] > ZNet: SZombienet -> SSteamSDK: SetMaxPlayerCount.
+[23-05-26 08:23:48.384] LOG  : Network     , 1779524628383> 1,354,821> [23-05-26 08:23:48.383] > ZNet: Public IP: 182.253.131.54.
+[23-05-26 08:23:48.388] LOG  : General     , 1779524628388> 1,354,826> Start making backup to: /home/linuxgsm/Zomboid/backups/startup.
+[23-05-26 08:23:48.619] LOG  : General     , 1779524628619> 1,355,057> compressionElapsed=111ms, mergingElapsed=111ms.
+[23-05-26 08:23:48.630] LOG  : General     , 1779524628629> 1,355,067> Backup made in 233 ms.
+[23-05-26 08:23:48.635] LOG  : General     , 1779524628635> 1,355,073> Start making backup to: /home/linuxgsm/Zomboid/backups/version.
+[23-05-26 08:23:48.679] LOG  : General     , 1779524628679> 1,355,117> compressionElapsed=32ms, mergingElapsed=11ms.
+[23-05-26 08:23:48.685] LOG  : General     , 1779524628685> 1,355,123> Backup made in 50 ms.
+[23-05-26 08:23:48.695] LOG  : General     , 1779524628695> 1,355,133> user database "/home/linuxgsm/Zomboid/db/fastos-private.db".
+[23-05-26 08:23:49.009] LOG  : General     , 1779524629008> 1,355,446> User 'admin' not found, creating it .
+[23-05-26 08:23:49.010] LOG  : General     , 1779524629010> 1,355,448> Command line admin password: null.
+[23-05-26 08:23:49.011] LOG  : General     , 1779524629011> 1,355,448> Enter new administrator password: .
