@@ -12,12 +12,12 @@ graph TD
     AzureFRP -->|FRP Tunnel| FRPC[FRP Client Container]
     FRPC -->|Local Network| PZ[Project Zomboid Container]
     
-    subgraph Vagrant VM (Ubuntu Focal64)
+    subgraph VM["Vagrant VM (Ubuntu Focal64)"]
         FRPC
         PZ
     end
     
-    subgraph Host OS (Windows)
+    subgraph Host["Host OS (Windows)"]
         Vagrant[Vagrant / VirtualBox]
     end
 ```
